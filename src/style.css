@@ -1,0 +1,121 @@
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navbar*/
+
+#navbar{
+
+
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type:none;
+
+}
+
+li:hover{
+
+color: grey;
+cursor: pointer;
+}
+
+/* Searchbar*/
+
+input{
+
+    width: 500px;
+    padding: 15px;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: medium;
+}
+
+
+/* Products*/
+#products{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+
+
+
+#product1{
+
+
+    height: 300px;
+    width: 200px;
+    border: solid black 2px;
+}
+
+#product2{
+
+
+    height: 300px;
+    width: 200px;
+    border: solid black 2px;
+}
+
+#product3{
+
+
+    height: 300px;
+    width: 200px;
+    border: solid black 2px;
+}
+
+#productpara:hover{
+
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+img{
+
+    height: 190px;
+    width: 200px;
+}
+
+
+/*about us*/
+
+#aboutus{
+
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+#aboutuspara{
+
+    padding-top: 15px;
+}
+
+/*contact*/
+
+#contactus{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    height: 150px;
+}
